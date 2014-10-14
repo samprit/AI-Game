@@ -1,0 +1,50 @@
+﻿Build started 10/12/2014 8:24:53 PM.
+     1>Project "F:\AI\Asg1\gameBetav1.0\game\game\game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\game.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt alphaBeta.cpp commandLine.cpp game.cpp minMax.cpp miniMax2.cpp start.cpp /clr:nostdlib 
+         alphaBeta.cpp
+     1>alphaBeta.cpp(16): warning C4101: 'bestNode' : unreferenced local variable
+         commandLine.cpp
+         game.cpp
+         minMax.cpp
+     1>minMax.cpp(17): warning C4101: 'bestNode' : unreferenced local variable
+         miniMax2.cpp
+         start.cpp
+         Generating Code...
+     1>f:\ai\asg1\gamebetav1.0\game\game\commandline.cpp(43): warning C4700: uninitialized local variable 'pt' used
+     1>f:\ai\asg1\gamebetav1.0\game\game\commandline.cpp(44): warning C4700: uninitialized local variable 'move' used
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\AI\Asg1\gameBetav1.0\game\Debug\game.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\game.Form1.resources /ASSEMBLYRESOURCE:Debug\game.InputComputerPlayType.resources /ASSEMBLYRESOURCE:Debug\game.InputMultiPlayerNames.resources /ASSEMBLYRESOURCE:Debug\game.InputSinglePlayer.resources /ASSEMBLYRESOURCE:Debug\game.start.resources /MANIFEST /ManifestFile:"Debug\game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\AI\Asg1\gameBetav1.0\game\Debug\game.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\alphaBeta.obj
+         Debug\AssemblyInfo.obj
+         Debug\commandLine.obj
+         Debug\game.obj
+         Debug\InputComputerPlayType.obj
+         Debug\InputMultiPlayerNames.obj
+         Debug\InputSinglePlayer.obj
+         Debug\miniMax2.obj
+         Debug\minMax.obj
+         Debug\start.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         game.vcxproj -> F:\AI\Asg1\gameBetav1.0\game\Debug\game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\AI\Asg1\gameBetav1.0\game\Debug\game.exe;#1" /manifest Debug\game.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\game.unsuccessfulbuild".
+         Touching "Debug\game.lastbuildstate".
+     1>Done Building Project "F:\AI\Asg1\gameBetav1.0\game\game\game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.73
